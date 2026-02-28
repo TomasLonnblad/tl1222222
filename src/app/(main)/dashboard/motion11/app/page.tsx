@@ -1,5 +1,5 @@
 "use client"
-import { BubbleBackground } from '../components/bubble';
+import { BubbleBackground } from '../components/ui/bubble';
 
 
 type BubbleBackgroundDemoProps = {
