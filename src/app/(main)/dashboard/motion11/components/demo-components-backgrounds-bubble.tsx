@@ -1,15 +1,15 @@
 "use client"
-import { BubbleBackgroundDemo } from '../components/demo-components-backgrounds-bubble';
+import { BubbleBackground } from '../components/animate-ui/components/backgrounds/bubble';
 
 type BubbleBackgroundDemoProps = {
   interactive: boolean;
 };
 
-export default function BubbleBackgroundDemoPage({
+export const BubbleBackgroundDemo = ({
   interactive,
-}: BubbleBackgroundDemoProps) {
+}: BubbleBackgroundDemoProps) => {
   return (
-    <BubbleBackgroundDemo
+    <BubbleBackground
       interactive={interactive}
       className="absolute inset-0 flex items-center justify-center rounded-xl"
     />
