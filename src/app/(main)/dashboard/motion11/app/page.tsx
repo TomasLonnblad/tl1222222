@@ -1,6 +1,5 @@
 "use client"
-import { BubbleBackground } from '../components/ui/bubble';
-
+import { BubbleBackground } from '@/components/animate-ui/components/backgrounds/bubble';
 
 type BubbleBackgroundDemoProps = {
   interactive: boolean;
