@@ -1,5 +1,5 @@
 "use client"
-import { BubbleBackgroundDemo } from '../../../components/demo-components-backgrounds-bubble';
+import { BubbleBackgroundDemo } from 'components/demo-components-backgrounds-bubble';
 
 type BubbleBackgroundDemoProps = {
   interactive: boolean;
